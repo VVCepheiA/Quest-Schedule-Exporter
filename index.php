@@ -108,7 +108,7 @@ function uw_waterloo_quest_schedule($input, $format, $summary = '@code @type in 
   //otherwise, no swap
   $swap = false;
   $locale = $_SERVER["HTTP_ACCEPT_LANGUAGE"];
-  if (strpos($locale, 'en-CA') !== FALSE){
+  if (stripos($locale, 'en-CA') !== FALSE){
     $swap = true;
   }
   //start the algorithm
