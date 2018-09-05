@@ -132,7 +132,7 @@ function uw_waterloo_quest_schedule($input, $format, $summary = '@code @type in 
     
     $regex = '/
     (
-      (\w{2,5}\ \w{3,4})\ -\                        #code
+      (\w{2,5}\ \w{3,5})\ -\                        #code
       ([^\r\n]+)                                    #name
     )
     |
